@@ -1,0 +1,88 @@
+.custom-not-hover:hover {
+  scale: 1.15;
+  text-decoration: underline;
+}
+.navbar{
+  z-index: 10;
+}
+.profile{
+  border-radius: 49% 51% 49% 51% / 49% 51% 49% 51%;
+}
+.Profile_image{
+}
+.image_dark{
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image_light{
+  transition: transform 0.3s ease;
+}
+.image_light:hover{
+  cursor: pointer;
+  opacity: 0.3;
+  transform: scale(1.1) rotate(3deg);
+  z-index: -1;
+}
+
+.image_dark:hover {
+  cursor: pointer;
+  transform: scale(1.1) rotate(3deg);
+  z-index: -1;
+}
+
+.code {
+  opacity: 0;
+  visibility: hidden; /* Initially hidden */
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  /* Add other styling properties for .code */
+}
+
+.image_dark:hover + .code {
+  opacity: 1;
+  visibility: visible; /* Display .code when .image is hovered */
+  /* Add transition properties for smoother animation */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.code:hover{
+  opacity: 1;
+  visibility: visible; /* Display .code when .image is hovered */
+  /* Add transition properties for smoother animation */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.skillSection {
+  background-image: url(../assets/Bg.jpg);
+  opacity: 0.6;
+  transition: opacity 0.7s ease; /* Smooth transition for opacity */
+}
+
+.skillSection:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adding shadow on hover */
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 12px;
+  background-color: #fff; /* White background color */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 1s ease-in-out; /* Animation transition */
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.dot:hover {
+  width: 20px;
+  height: 20px;
+}
