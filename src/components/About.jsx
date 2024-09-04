@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.css';
 import Myself from '../assets/Images/Myself/Myself2.png'
 const About = () => {

@@ -3,7 +3,6 @@ import profile from '../../public/hero.jpg'
 import Typed from 'typed.js';
 import './style.css';
 import Myself from '../assets/Images/Myself/Myself1.png'
-import { Link } from 'react-scroll';
 import resume from '../assets/Sajal.pdf'
 const HeroSection = () => {
   useEffect(() => {
