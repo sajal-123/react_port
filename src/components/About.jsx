@@ -1,11 +1,11 @@
 import './style.css';
-import Myself from '../assets/Images/Myself/Myself2.png'
+import Myself from '../assets/Images/Myself/My_self_1.png'
 const About = () => {
     return (
         <div name="About" className='min-h-screen w-full bg-slate-100 bg-gradient-to-b dark:to-black dark:from-gray-800 light: flex max-md:flex-col mx-auto px-2'>
             <div className='md:w-[30%] w-full flex items-center justify-center mt-10 md:mt-0 md:min-h-screen'>
-                <div className='h-[70%] w-[80%] overflow-hidden rounded-md bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-bl'>
-                    <img src={Myself} alt="" />
+                <div className='h-[70%] w-[80%] object-contain overflow-hidden rounded-md bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-bl'>
+                    <img src={Myself} alt="" className=' object-contain' />
                 </div>
             </div>
             <div className=' min-h-screen mx-auto md:px-8 px-4 flex flex-col items-center justify-center md:w-[60%] w-full gap-4'>

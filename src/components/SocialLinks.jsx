@@ -29,7 +29,7 @@ const SocialLinks = () => {
 
         },
         {
-            id: 5, link: 'mailto:sajalag78@gmail.com?subject=Subject&body=Message body',
+            id: 5, link: 'mailto:work.sajalgarg.1914@gmail.com?subject=Subject&body=Message body',
             src:email,
             text:"Mail me"
 

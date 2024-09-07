@@ -1,17 +1,17 @@
 import React from 'react'
 import './style.css';
-import chat from '../assets/Images/Chat_main.png'
-import job_1 from '../assets/Images/job_2.png'
-import Todo_1 from '../assets/Images/Todo_1.png'
+import blog_1 from '../assets/Images/blog_1.png'
+import E_com from '../assets/Images/E_com.png'
+import E_Learn from '../assets/Images/E_Learn.png'
 import Todo_2 from '../assets/Images/Todo_2.png'
-import Todo_3 from '../assets/Images/Todo_3.png'
+import micro from '../assets/Images/Micro_loop.png'
 const Projects = () => {
     let Projects = [
-        { id: 1, description: 'An real time conversation platform to interact one on one.', title: 'Chatting App', link: 'https://github.com/sajal-123/MERN-Project-1', src: chat },
-        { id: 2, description: 'helpfull platform that easy to grab job in fast manner.', title: 'Job Seeking App', link: 'https://github.com/sajal-123/JObPortal', src: job_1 },
-        { id: 3, description: "Take control of your time and tasks with precision using our to-do app's comprehensive set of tools and features.", title: 'Todo In react', link: 'https://github.com/sajal-123/Todo-1', src: Todo_1 },
-        { id: 4, description: 'In the realm of productivity tools, our to-do app stands out for its intuitive design and powerful features.', title: 'Todo In Next', link: 'https://github.com/sajal-123/Todo-2', src: Todo_2 },
-        { id: 5, description: 'Seamlessly schedule and manage tasks with our to-do app, designed to elevate your efficiency and organization.', title: 'Another Todo', link: 'https://github.com/sajal-123/Todo-3', src: Todo_3 },
+        { id: 1, description: 'transformative co-creation experience with simultaneous collaboration on shared content.', title: 'Microsoft_Loop', link: 'https://github.com/sajal-123/Micro_loop_2.0', src: micro },
+        { id: 2, description: 'Built using Next.js and Node.js/Express.js, the platform can efficiently handle a growing number of users and courses.', title: 'Learn_first', link: 'https://github.com/sajal-123/Learn_Manage_Sys', src: E_Learn },
+        { id: 3, description: "An full stack Blogging platform to explore world with new Technologies and update Yourself.", title: 'Blogs update', link: 'https://github.com/sajal-123/blog_1', src: blog_1 },
+        { id: 4, description: 'E-commerce Platform with to Buy and sell Product having User friendly interface with seamless payment system.', title: 'E-Commerce Platform', link: 'https://github.com/sajal-123/Full_Stack_Ecommerce_Application', src: E_com },
+        { id: 5, description: 'In the realme of productivity tools, our to-do app stands out for its intuitive design and powerful features.', title: 'Todo In Next', link: 'https://github.com/sajal-123/Todo-2', src: Todo_2 },
     ];
     return (
         <div name="Projects" className='flex flex-col items-center justify-center  min-h-screen w-full dark:bg-gradient-to-b dark:to-black dark:from-gray-800 bg-slate-100 md:pb-16'>

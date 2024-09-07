@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react'
-import profile from '../../public/hero.jpg'
+import { useEffect } from 'react'
 import Typed from 'typed.js';
 import './style.css';
-import Myself from '../assets/Images/Myself/Myself1.png'
-import resume from '../assets/Sajal.pdf'
+import Myself from '../assets/Images/Myself/my_self_2.png'
 const HeroSection = () => {
   useEffect(() => {
     const typed = new Typed("#element", {
@@ -25,7 +23,7 @@ const HeroSection = () => {
         <p className='text-md dark:text-white font-normal'>I am an experienced full stack developer proficient in React.js, Tailwind CSS, Next.js, Node.js, and Express, with a year of hands-on practice. Currently seeking new opportunities to leverage my skills and contribute effectively to innovative projects.</p>
        
         <div className="flex gap-4">
-          <a href={resume} target='_blank'>
+          <a href="https://drive.google.com/file/d/12ifKdsgE3l36Qcc21mEIP-0-0_FP2ngd/view" target='_blank'>
             <button
               color="transparent" type="button"
               className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center w-40 me-2 mb-2"
@@ -39,8 +37,8 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className='profile md:mt-0 mt-20 h-80 w-60 overflow-hidden ml-4 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl'>
-        <img src={Myself} alt=""  className='Profile_Image'/>
+      <div className='profile md:mt-0 mt-20 h-80 w-60 relative overflow-hidden ml-4 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl'>
+        <img src={Myself} alt=""  className='Profile_Image absolute top-8 scale-110'/>
       </div>
     </div>
   )
