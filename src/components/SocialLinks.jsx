@@ -8,12 +8,12 @@ import phone from '../../public/phone.png'
 const SocialLinks = () => {
     let links = [
         {
-            id: 1, link: 'https://leetcode.com/sajal_2003/',
+            id: 1, link: 'https://leetcode.com/bug_cracker/',
             src:Leetcode,
             text:"Leetcode"
         },
         {
-            id: 2, link: 'https://www.linkedin.com/in/sajal-agarwal-960176262/',
+            id: 2, link: 'https://www.linkedin.com/in/sajal-ag/',
             src:linkedin,
             text:"Linkedin"
         },
