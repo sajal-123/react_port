@@ -23,7 +23,7 @@ const HeroSection = () => {
         <p className='text-md dark:text-white font-normal'>I am an experienced full stack developer proficient in React.js, Tailwind CSS, Next.js, Node.js, and Express, with a year of hands-on practice. Currently seeking new opportunities to leverage my skills and contribute effectively to innovative projects.</p>
        
         <div className="flex gap-4">
-          <a href="https://drive.google.com/file/d/12ifKdsgE3l36Qcc21mEIP-0-0_FP2ngd/view" target='_blank'>
+          <a href="https://drive.google.com/file/d/1wNtWYifxuMNie0jjUSJyjftfz8UJ5UBA/view" target='_blank'>
             <button
               color="transparent" type="button"
               className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center w-40 me-2 mb-2"
